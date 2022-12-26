@@ -45,8 +45,7 @@
                     </thead>
                     <tbody>
                         @php
-                            $no = 1;
-                        @endphp
+                            $no = 1;f
                         @foreach ($data as $row)
                             <tr>
                                 <th scope="row">{{ $no++ }}</th>
